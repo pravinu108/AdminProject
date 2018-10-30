@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="24" failures="2" name="TestSuite" time="19.665" errors="0" skipped="2">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="AdminLTEfull"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Users\PRAVIN\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="d540470f673f734f"/>
+    <property name="lib" value="C:\Program Files (x86)\Microsoft Visual Studio\VC98\mfc\lib;C:\Program Files (x86)\Microsoft Visual Studio\VC98\lib"/>
+    <property name="MSDevDir" value="C:\Program Files (x86)\Microsoft Visual Studio\Common\MSDev98"/>
+    <property name="os.name" value="Windows 8"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\Users\PRAVIN\AppData\Local\Temp"/>
+    <property name="java.runtime.version" value="1.8.0_131-b11"/>
+    <property name="user.name" value="PRAVIN"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="include" value="C:\Program Files (x86)\Microsoft Visual Studio\VC98\atl\include;C:\Program Files (x86)\Microsoft Visual Studio\VC98\mfc\include;C:\Program Files (x86)\Microsoft Visual Studio\VC98\include"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="AdminLTEfull"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/AdminLTEfull/1/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#1"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
+    <property name="VS110COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\"/>
+    <property name="LOCALAPPDATA" value="C:\Users\PRAVIN\AppData\Local"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="USERNAME" value="PRAVIN"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="1"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="maven.conf" value="C:\apache-maven-3.5.4\conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="SCITE_USERHOME" value="C:\Users\PRAVIN\AppData\Local\AutoIt v3\SciTE"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_131\jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="6.2"/>
+    <property name="RUN_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/AdminLTEfull/1/display/redirect"/>
+    <property name="TMP" value="C:\Users\PRAVIN\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="AMDAPPSDKROOT" value="C:\Java\jdk1.7.0_79\bin;"/>
+    <property name="user.variant" value=""/>
+    <property name="JOB_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/AdminLTEfull/display/redirect"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="DELL"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_131"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="XILINX" value="C:\Xilinx\10.1\ISE"/>
+    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="HOMEPATH" value="\Users\PRAVIN"/>
+    <property name="user.script" value=""/>
+    <property name="COMPUTERNAME" value="DELL"/>
+    <property name="GOOGLE_API_KEY" value="no"/>
+    <property name="GOOGLE_DEFAULT_CLIENT_SECRET" value="no"/>
+    <property name="user.home" value="C:\Users\PRAVIN"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-AdminLTEfull-1"/>
+    <property name="JENKINS_SERVER_COOKIE" value="d540470f673f734f"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\PRAVIN"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\apache-maven-3.5.4/bin;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_131\bin;C:\apache-maven-3.5.4\bin;C:\apache-maven-3.5.4\bin;C:\Program Files\Java\jdk1.8.0_131\bin;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\PRAVIN\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\apache-maven-3.5.4"/>
+    <property name="java.class.path" value="C:\Users\PRAVIN\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12-alpha-1.jar;C:\apache-maven-3.5.4\boot\plexus-classworlds-2.5.2.jar;C:\apache-maven-3.5.4/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\apache-maven-3.5.4 C:\Users\PRAVIN\.jenkins\war\WEB-INF\lib\remoting-3.20.jar C:\Users\PRAVIN\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Users\PRAVIN\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 23973"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_131\bin;C:\apache-maven-3.5.4\bin;C:\apache-maven-3.5.4\bin;C:\Program Files\Java\jdk1.8.0_131\bin"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 58 Stepping 9, GenuineIntel"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\apache-maven-3.5.4"/>
+    <property name="java.io.tmpdir" value="C:\Users\PRAVIN\AppData\Local\Temp\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Users\PRAVIN\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\apache-maven-3.5.4/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="E:\jbk\WorkSpace\AdminLTEfull"/>
+    <property name="GOOGLE_DEFAULT_CLIENT_ID" value="no"/>
+    <property name="LMC_HOME" value="C:\Xilinx\10.1\ISE\smartmodel\nt\installed_nt"/>
+    <property name="LOGONSERVER" value="\\DELL"/>
+    <property name="USERDOMAIN" value="DELL"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="C:\apache-maven-3.5.4"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="1"/>
+    <property name="PROCESSOR_REVISION" value="3a09"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\Windows"/>
+    <property name="=C:" value="C:\Users\PRAVIN"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\PRAVIN\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar"/>
+    <property name="WORKSPACE" value="C:\Users\PRAVIN\.jenkins\workspace\AdminLTEfull"/>
+    <property name="maven3.interceptor.common" value="C:\Users\PRAVIN\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files (x86)\AutoIt3\AutoItX"/>
+  </properties>
+  <testcase classname="com.Admin.QA.test.AddusersPageTest" name="addUserPlaceholders" time="0.137"/>
+  <testcase classname="com.Admin.QA.test.DashboardPageTest" name="verifyDashboardTitle" time="0.018"/>
+  <testcase classname="com.Admin.QA.test.LoginPageTest" name="loginPagetitle" time="0.009"/>
+  <testcase classname="com.Admin.QA.test.RegistrationPageTest" name="verifyPageTitle" time="0.266"/>
+  <testcase classname="com.Admin.QA.test.UsersPageTest" name="ValidateUsersTable" time="0.899"/>
+  <testcase classname="com.Admin.QA.test.AddusersPageTest" name="adduserErrors" time="1.076">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.Admin.QA.test.DashboardPageTest" name="validateUsersLink" time="0.358"/>
+  <testcase classname="com.Admin.QA.test.LoginPageTest" name="loginpageSubTitle" time="0.502"/>
+  <testcase classname="com.Admin.QA.test.RegistrationPageTest" name="verifySubTitle" time="0.041"/>
+  <testcase classname="com.Admin.QA.test.AddusersPageTest" name="validateCancelBtn" time="0.272"/>
+  <testcase classname="com.Admin.QA.test.DashboardPageTest" name="validateOperatorLink" time="0.588"/>
+  <testcase classname="com.Admin.QA.test.LoginPageTest" name="email_placeholder" time="0.452"/>
+  <testcase classname="com.Admin.QA.test.RegistrationPageTest" name="verifyLabel" time="0.076">
+    <failure message="expected [Register a new membershi] but found [Register a new membership]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Register a new membershi] but found [Register a new membership]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.Admin.QA.test.RegistrationPageTest.verifyLabel(RegistrationPageTest.java:49)
+</failure>
+    <system-err>java.lang.NullPointerException
+	at com.Admin.QA.Util.TestUtil.tearDown1(TestUtil.java:102)
+	at com.Admin.QA.test.LoginPageTest.tearDown(LoginPageTest.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Oct 30, 2018 5:24:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel&apos;s Law holds true on the remote end
+Oct 30, 2018 5:24:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</system-err>
+  </testcase>
+  <testcase classname="com.Admin.QA.test.DashboardPageTest" name="validateCopyright" time="0.05"/>
+  <testcase classname="com.Admin.QA.test.LoginPageTest" name="password_placeholder" time="0.222"/>
+  <testcase classname="com.Admin.QA.test.RegistrationPageTest" name="verifyPaceholders" time="0.077">
+    <failure message="The following asserts failed:
+null" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+null
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:37)
+	at com.Admin.QA.test.RegistrationPageTest.verifyPaceholders(RegistrationPageTest.java:69)
+</failure>
+    <system-err>java.lang.NullPointerException
+	at com.Admin.QA.Util.TestUtil.tearDown1(TestUtil.java:102)
+	at com.Admin.QA.test.LoginPageTest.tearDown(LoginPageTest.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Oct 30, 2018 5:25:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel&apos;s Law holds true on the remote end
+Oct 30, 2018 5:25:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</system-err>
+  </testcase>
+  <testcase classname="com.Admin.QA.test.DashboardPageTest" name="validateVersion" time="0.183"/>
+  <testcase classname="com.Admin.QA.test.LoginPageTest" name="verifyloginPageTextBox" time="0.206">
+    <skipped/>
+    <system-out>[Ljava.lang.StackTraceElement;@3899782c
+</system-out>
+  </testcase>
+  <testcase classname="com.Admin.QA.test.RegistrationPageTest" name="verifyErrorMsg" time="0.326"/>
+  <testcase classname="com.Admin.QA.test.DashboardPageTest" name="validateMenu" time="0"/>
+  <testcase classname="com.Admin.QA.test.LoginPageTest" name="veryfylogin" time="3.346"/>
+  <testcase classname="com.Admin.QA.test.RegistrationPageTest" name="verifyRegistration" time="9.902"/>
+  <testcase classname="com.Admin.QA.test.LoginPageTest" name="verifyRegLink" time="0.449"/>
+  <testcase classname="com.Admin.QA.test.RegistrationPageTest" name="verifyAlreadyMembersLink" time="0.21"/>
+</testsuite>

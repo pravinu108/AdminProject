@@ -1,0 +1,6 @@
+com\Admin\QA\test\DashboardPageTest.class
+com\Admin\QA\test\UsersPageTest.class
+com\Admin\QA\test\OperatorPageTest.class
+com\Admin\QA\test\LoginPageTest.class
+com\Admin\QA\test\AddusersPageTest.class
+com\Admin\QA\test\RegistrationPageTest.class

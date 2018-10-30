@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.Admin.QA.ExtentReportListener.ExtentReportNg"/>
+  </listeners>
+  <test name="AdminLTEfull(failed)">
+    <classes>
+      <class name="com.Admin.QA.test.LoginPageTest">
+        <methods>
+          <include name="verifyloginPageTextBox" invocation-numbers="2"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.Admin.QA.test.LoginPageTest -->
+      <class name="com.Admin.QA.test.RegistrationPageTest">
+        <methods>
+          <include name="verifyLabel"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.Admin.QA.test.RegistrationPageTest -->
+    </classes>
+  </test> <!-- AdminLTEfull(failed) -->
+</suite> <!-- Failed suite [Suite] -->

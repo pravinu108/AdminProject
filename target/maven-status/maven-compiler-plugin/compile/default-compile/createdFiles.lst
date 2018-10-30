@@ -1,0 +1,10 @@
+com\Admin\QA\Util\webEventListner.class
+com\Admin\QA\page\OperatorPage.class
+com\Admin\QA\ExtentReportListener\ExtentReportNg.class
+com\Admin\QA\page\DashboardPage.class
+com\Admin\QA\page\UsersPage.class
+com\Admin\QA\Util\TestUtil.class
+com\Admin\QA\base\TestBase.class
+com\Admin\QA\page\AddUsersPage.class
+com\Admin\QA\page\RegistrationPage.class
+com\Admin\QA\page\LoginPage.class

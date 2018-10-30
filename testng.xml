@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <!--   <listeners>
+  <listener 
+  class-name="com.Admin.QA.ExtentReportListener.ExtentReportNg"></listener>
+  
+  </listeners>
+  
+  -->
+  
+  <test name="AdminLTEfull">
+    <classes>
+      <class name="com.Admin.QA.test.LoginPageTest"/>
+      <class name="com.Admin.QA.test.RegistrationPageTest"/>
+    <class name="com.Admin.QA.test.DashboardPageTest"/>
+    <class name="com.Admin.QA.test.UsersPageTest"/>
+     <class name="com.Admin.QA.test.AddusersPageTest"/>
+      <class name="com.Admin.QA.test.OperatorPageTest"/>
+    </classes>
+  </test> <!-- AdminLTEfull -->
+</suite> <!-- Suite -->

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.Admin.QA.test.AddusersPageTest">
+        <methods>
+          <include name="adduserErrors"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.Admin.QA.test.AddusersPageTest -->
+      <class name="com.Admin.QA.test.UsersPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.Admin.QA.test.UsersPageTest -->
+      <class name="com.Admin.QA.test.RegistrationPageTest">
+        <methods>
+          <include name="verifyLabel"/>
+          <include name="tearDown"/>
+          <include name="verifyPaceholders"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.Admin.QA.test.RegistrationPageTest -->
+      <class name="com.Admin.QA.test.DashboardPageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.Admin.QA.test.DashboardPageTest -->
+      <class name="com.Admin.QA.test.LoginPageTest">
+        <methods>
+          <include name="verifyloginPageTextBox"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.Admin.QA.test.LoginPageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 24, Failures: 2, Errors: 0, Skipped: 2, Time elapsed: 413.145 sec <<< FAILURE!
+verifyLabel(com.Admin.QA.test.RegistrationPageTest)  Time elapsed: 0.076 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Register a new membershi] but found [Register a new membership]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.Admin.QA.test.RegistrationPageTest.verifyLabel(RegistrationPageTest.java:49)
+
+verifyPaceholders(com.Admin.QA.test.RegistrationPageTest)  Time elapsed: 0.077 sec  <<< FAILURE!
+java.lang.AssertionError: The following asserts failed:
+null
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:37)
+	at com.Admin.QA.test.RegistrationPageTest.verifyPaceholders(RegistrationPageTest.java:69)
+
